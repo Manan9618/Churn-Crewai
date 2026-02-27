@@ -1,0 +1,14 @@
+{
+  "current_stage": "processing",
+  "files_generated": {
+    "processed_data": true,
+    "selected_features": true,
+    "X_train": true,
+    "X_test": true,
+    "y_train": true,
+    "y_test": true
+  },
+  "feature_count": 12,
+  "train_size": 8278,
+  "test_size": 1409
+}

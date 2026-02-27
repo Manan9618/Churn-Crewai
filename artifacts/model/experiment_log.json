@@ -1,0 +1,33 @@
+{
+  "experiments": [
+    {
+      "run_id": 1,
+      "timestamp": "2026-02-27T11:12:11.956414",
+      "model_type": "gradient_boosting"
+    },
+    {
+      "run_id": 2,
+      "timestamp": "2026-02-27T11:58:20.108468",
+      "model_type": "gradient_boosting",
+      "auc": 0.8394,
+      "f1": 0.5896,
+      "recall": 0.5321
+    },
+    {
+      "run_id": 3,
+      "timestamp": "2026-02-27T14:56:32.313165",
+      "model_type": "gradient_boosting",
+      "auc": 0.8394,
+      "f1": 0.5896,
+      "recall": 0.5321
+    },
+    {
+      "run_id": 4,
+      "timestamp": "2026-02-27T15:43:26.946224",
+      "model_type": "gradient_boosting",
+      "auc": 0.8394,
+      "f1": 0.5896,
+      "recall": 0.5321
+    }
+  ]
+}

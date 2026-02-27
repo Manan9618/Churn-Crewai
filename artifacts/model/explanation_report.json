@@ -1,0 +1,24 @@
+{
+  "model_path": "artifacts/model/churn_model.pkl",
+  "global_feature_importance_shap": {
+    "Contract": 0.7796127074541823,
+    "tenure": 0.3986869696702159,
+    "MonthlyCharges": 0.33265262429742765,
+    "OnlineSecurity": 0.2797660460723671,
+    "TotalCharges": 0.23580957702524696,
+    "TechSupport": 0.23250601765650192,
+    "OnlineBackup": 0.17677281151532287,
+    "MultipleLines": 0.1545201608548493,
+    "PaymentMethod": 0.1433964179759817,
+    "PaperlessBilling": 0.14204731637011417
+  },
+  "top_churn_drivers": [
+    "Contract",
+    "tenure",
+    "MonthlyCharges",
+    "OnlineSecurity",
+    "TotalCharges"
+  ],
+  "test_auc": 0.8394,
+  "test_f1": 0.5896
+}
