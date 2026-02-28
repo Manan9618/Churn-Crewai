@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-02-28T21:25:07.397426",
+  "scaler_path": "artifacts/model/scaler.pkl",
+  "encoder_path": "artifacts/model/encoder.pkl",
+  "numerical_columns": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_columns": [
+    "Contract",
+    "PaymentMethod",
+    "OnlineSecurity",
+    "TechSupport",
+    "InternetService",
+    "gender",
+    "OnlineBackup",
+    "PaperlessBilling",
+    "MultipleLines"
+  ],
+  "scaler_saved": true,
+  "encoder_saved": true,
+  "feature_count": 12,
+  "ready_for_inference": true
+}

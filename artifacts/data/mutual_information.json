@@ -1,0 +1,42 @@
+{
+  "mutual_information_scores": {
+    "Contract": 0.0915740593565948,
+    "tenure": 0.07697124069320793,
+    "OnlineSecurity": 0.0608718328160347,
+    "TechSupport": 0.05905959132678662,
+    "OnlineBackup": 0.05569394658167992,
+    "InternetService": 0.05439962204488258,
+    "PaymentMethod": 0.0479121244167644,
+    "DeviceProtection": 0.046259703755481496,
+    "MonthlyCharges": 0.046025359236061325,
+    "TotalCharges": 0.043356009296672715,
+    "StreamingMovies": 0.03015762726853599,
+    "StreamingTV": 0.030077192870602065,
+    "Dependents": 0.020399242406937912,
+    "PaperlessBilling": 0.02001397020764184,
+    "PhoneService": 0.010757679985695212
+  },
+  "all_features_mi": {
+    "Contract": 0.0915740593565948,
+    "tenure": 0.07697124069320793,
+    "OnlineSecurity": 0.0608718328160347,
+    "TechSupport": 0.05905959132678662,
+    "OnlineBackup": 0.05569394658167992,
+    "InternetService": 0.05439962204488258,
+    "PaymentMethod": 0.0479121244167644,
+    "DeviceProtection": 0.046259703755481496,
+    "MonthlyCharges": 0.046025359236061325,
+    "TotalCharges": 0.043356009296672715,
+    "StreamingMovies": 0.03015762726853599,
+    "StreamingTV": 0.030077192870602065,
+    "Dependents": 0.020399242406937912,
+    "PaperlessBilling": 0.02001397020764184,
+    "PhoneService": 0.010757679985695212,
+    "Partner": 0.007401011938156898,
+    "SeniorCitizen": 0.004313864001228795,
+    "gender": 0.0012178537891593955,
+    "MultipleLines": 0.0
+  },
+  "top_n": 15,
+  "sklearn_version": "2.1.4"
+}

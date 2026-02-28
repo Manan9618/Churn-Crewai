@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-02-28T21:30:37.887021",
+  "model_path": "artifacts/model/churn_model.pkl",
+  "n_iterations": 100,
+  "single_prediction_latency": {
+    "mean_ms": 0.4417,
+    "std_ms": 0.0873,
+    "min_ms": 0.3402,
+    "max_ms": 0.8349,
+    "p50_ms": 0.4103,
+    "p95_ms": 0.5965,
+    "p99_ms": 0.6367
+  },
+  "batch_prediction_latency": {
+    "mean_ms": 0.4481,
+    "std_ms": 0.0285,
+    "min_ms": 0.4002,
+    "max_ms": 0.5182,
+    "p50_ms": 0.4428,
+    "p95_ms": 0.5025,
+    "p99_ms": 0.5059,
+    "batch_size": 100,
+    "per_sample_ms": 0.004481
+  },
+  "sla_threshold_ms": 100,
+  "meets_sla": true,
+  "sla_status": "\u2705 PASS"
+}

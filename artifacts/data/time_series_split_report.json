@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-02-28T21:25:03.174290",
+  "split_type": "time_series",
+  "date_column": "tenure",
+  "gap_periods": 0,
+  "train_date_range": [
+    "-1.318165",
+    "1.1250569"
+  ],
+  "test_date_range": [
+    "1.1250569",
+    "1.6137012"
+  ],
+  "train_size": 5634,
+  "test_size": 1409,
+  "train_churn_rate": 31.52,
+  "test_churn_rate": 6.6,
+  "lookahead_bias_prevented": true
+}

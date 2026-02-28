@@ -1,0 +1,89 @@
+{
+  "iv_threshold": 0.02,
+  "n_features_analyzed": 12,
+  "n_weak_features": 2,
+  "weak_features": [
+    "gender",
+    "MultipleLines"
+  ],
+  "all_iv_scores": [
+    {
+      "feature": "TotalCharges",
+      "information_value": 0.338115,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "MonthlyCharges",
+      "information_value": 0.364717,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "tenure",
+      "information_value": 0.823712,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "Contract",
+      "information_value": 1.23856,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "PaymentMethod",
+      "information_value": 0.457109,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "OnlineSecurity",
+      "information_value": 0.717777,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "TechSupport",
+      "information_value": 0.699567,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "InternetService",
+      "information_value": 0.617953,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "gender",
+      "information_value": 0.00038,
+      "predictive_power": "Useless",
+      "status": "FAIL"
+    },
+    {
+      "feature": "OnlineBackup",
+      "information_value": 0.528634,
+      "predictive_power": "Strong",
+      "status": "PASS"
+    },
+    {
+      "feature": "PaperlessBilling",
+      "information_value": 0.203068,
+      "predictive_power": "Medium",
+      "status": "PASS"
+    },
+    {
+      "feature": "MultipleLines",
+      "information_value": 0.008207,
+      "predictive_power": "Useless",
+      "status": "FAIL"
+    }
+  ],
+  "iv_summary": {
+    "useless": 2,
+    "weak": 0,
+    "medium": 1,
+    "strong": 9
+  }
+}

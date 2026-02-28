@@ -1,0 +1,25 @@
+[
+  {
+    "customer_index": 0,
+    "original_prediction": 0,
+    "original_probability": 0.0139,
+    "counterfactual_prediction": 1,
+    "counterfactual_probability": 0.5757,
+    "changed_features": {
+      "TotalCharges": {
+        "original": 2.7311187,
+        "counterfactual": 2.8267431,
+        "change": 0.09562439999999972
+      },
+      "MonthlyCharges": {
+        "original": 1.6381432,
+        "counterfactual": 1.2866510746956026,
+        "change": -0.35149212530439744
+      }
+    },
+    "changes_description": [
+      "TotalCharges: 2.73 \u2192 2.83",
+      "MonthlyCharges: 1.64 \u2192 1.29"
+    ]
+  }
+]

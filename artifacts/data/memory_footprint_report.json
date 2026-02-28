@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-28T21:26:33.478239",
+  "system_memory": {
+    "total_gb": 8.0,
+    "available_gb": 1.93,
+    "used_gb": 3.0,
+    "used_percent": 75.9
+  },
+  "artifact_sizes": {
+    "X_train": {
+      "size_bytes": 443196,
+      "size_mb": 0.42,
+      "size_gb": 0.0004
+    },
+    "X_test": {
+      "size_bytes": 68750,
+      "size_mb": 0.07,
+      "size_gb": 0.0001
+    },
+    "y_train": {
+      "size_bytes": 15438,
+      "size_mb": 0.01,
+      "size_gb": 0.0
+    },
+    "y_test": {
+      "size_bytes": 2824,
+      "size_mb": 0.0,
+      "size_gb": 0.0
+    },
+    "processed_data": {
+      "size_bytes": 483057,
+      "size_mb": 0.46,
+      "size_gb": 0.0004
+    },
+    "features": {
+      "size_bytes": 188,
+      "size_mb": 0.0,
+      "size_gb": 0.0
+    }
+  },
+  "totals": {
+    "total_file_size_bytes": 1013453,
+    "total_file_size_mb": 0.97,
+    "total_file_size_gb": 0.0009,
+    "estimated_memory_gb": 0.0,
+    "estimated_memory_with_margin_gb": 0.0
+  },
+  "limits": {
+    "max_memory_gb": 16,
+    "safety_margin": 0.2,
+    "available_memory_gb": 1.93
+  },
+  "validation": {
+    "within_file_limit": true,
+    "within_memory_limit": true,
+    "all_ok": true
+  }
+}

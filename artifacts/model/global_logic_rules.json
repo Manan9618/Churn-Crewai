@@ -1,0 +1,84 @@
+{
+  "model_type": "GradientBoostingClassifier",
+  "n_rules_extracted": 10,
+  "top_features": {
+    "Contract": 0.5696256111524813,
+    "OnlineSecurity": 0.1506882823874808,
+    "tenure": 0.1061461533615491,
+    "InternetService": 0.09887391238746628,
+    "MonthlyCharges": 0.03589450474834199
+  },
+  "rules": [
+    {
+      "rule_id": 1,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity <= 0.50 AND tenure <= -0.89 AND InternetService <= 0.50",
+      "prediction": "No Churn",
+      "confidence_percent": 53.1,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 2,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity <= 0.50 AND tenure <= -0.89 AND InternetService > 0.50",
+      "prediction": "Churn",
+      "confidence_percent": 74.3,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 3,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity <= 0.50 AND tenure > -0.89 AND InternetService <= 0.50",
+      "prediction": "No Churn",
+      "confidence_percent": 78.9,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 4,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity <= 0.50 AND tenure > -0.89 AND InternetService > 0.50",
+      "prediction": "No Churn",
+      "confidence_percent": 53.0,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 5,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity > 0.50 AND MonthlyCharges <= 0.89 AND tenure <= -1.26",
+      "prediction": "No Churn",
+      "confidence_percent": 61.7,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 6,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity > 0.50 AND MonthlyCharges <= 0.89 AND tenure > -1.26",
+      "prediction": "No Churn",
+      "confidence_percent": 82.1,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 7,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity > 0.50 AND MonthlyCharges > 0.89 AND TotalCharges <= 0.27",
+      "prediction": "Churn",
+      "confidence_percent": 76.3,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 8,
+      "conditions": "Contract <= 0.50 AND OnlineSecurity > 0.50 AND MonthlyCharges > 0.89 AND TotalCharges > 0.27",
+      "prediction": "No Churn",
+      "confidence_percent": 78.3,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 9,
+      "conditions": "Contract > 0.50 AND MonthlyCharges <= 0.96 AND OnlineSecurity <= 0.50 AND PaymentMethod <= 1.50",
+      "prediction": "No Churn",
+      "confidence_percent": 94.3,
+      "support_samples": 1
+    },
+    {
+      "rule_id": 10,
+      "conditions": "Contract > 0.50 AND MonthlyCharges <= 0.96 AND OnlineSecurity <= 0.50 AND PaymentMethod > 1.50",
+      "prediction": "No Churn",
+      "confidence_percent": 83.9,
+      "support_samples": 1
+    }
+  ],
+  "decision_tree_text": "|--- Contract <= 0.50\n|   |--- OnlineSecurity <= 0.50\n|   |   |--- tenure <= -0.89\n|   |   |   |--- InternetService <= 0.50\n|   |   |   |   |--- class: 0\n|   |   |   |--- InternetService >  0.50\n|   |   |   |   |--- class: 1\n|   |   |--- tenure >  -0.89\n|   |   |   |--- InternetService <= 0.50\n|   |   |   |   |--- class: 0\n|   |   |   |--- InternetService >  0.50\n|   |   |   |   |--- class: 0\n|   |--- OnlineSecurity >  0.50\n|   |   |--- MonthlyCharges <= 0.89\n|   |   |   |--- tenure <= -1.26\n|   |   |   |   |--- class: 0\n|   |   |   |--- tenure >  -1.26\n|   |   |   |   |--- class: 0\n|   |   |--- MonthlyCharges >  0.89\n|   |   |   |--- TotalCharges <= 0.27\n|   |   |   |   |--- class: 1\n|   |   |   |--- TotalCharges >  0.27\n|   |   |   |   |--- class: 0\n|--- Contract >  0.50\n|   |--- MonthlyCharges <= 0.96\n|   |   |--- OnlineSecurity <= 0.50\n|   |   |   |--- PaymentMethod <= 1.50\n|   |   |   |   |--- class: 0\n|   |   |   |--- PaymentMethod >  1.50\n|   |   |   |   |--- class: 0\n|   |   |--- OnlineSecurity >  0.50\n|   |   |   |--- Contract <= 1.50\n|   |   |   |   |--- class: 0\n|   |   |   |--- Contract >  1.50\n|   |   |   |   |--- class: 0\n|   |--- MonthlyCharges >  0.96\n|   |   |--- Contract <= 1.50\n|   |   |   |--- tenure <= 1.10\n|   |   |   |   |--- class: 0\n|   |   |   |--- tenure >  1.10\n|   |   |   |   |--- class: 0\n|   |   |--- Contract >  1.50\n|   |   |   |--- TotalCharges <= 2.42\n|   |   |   |   |--- class: 0\n|   |   |   |--- TotalCharges >  2.42\n|   |   |   |   |--- class: 0\n"
+}

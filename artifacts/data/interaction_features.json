@@ -1,0 +1,26 @@
+{
+  "original_features": [
+    "TotalCharges",
+    "MonthlyCharges",
+    "tenure",
+    "Contract",
+    "PaymentMethod",
+    "OnlineSecurity",
+    "TechSupport",
+    "InternetService"
+  ],
+  "interaction_features": [
+    "Contract OnlineSecurity",
+    "Contract TechSupport",
+    "tenure PaymentMethod",
+    "Contract InternetService",
+    "Contract PaymentMethod",
+    "MonthlyCharges InternetService",
+    "OnlineSecurity TechSupport",
+    "tenure Contract",
+    "TotalCharges MonthlyCharges",
+    "tenure InternetService"
+  ],
+  "degree": 2,
+  "n_interactions_created": 10
+}

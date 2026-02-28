@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-02-28T21:26:30.006510",
+  "n_folds": 5,
+  "total_samples": 7716,
+  "samples_per_fold": 1543,
+  "overall_churn_rate": 0.5,
+  "fold_details": [
+    {
+      "fold": 1,
+      "sample_count": 1544,
+      "churn_rate": 0.5,
+      "churn_rate_pct": 50.0
+    },
+    {
+      "fold": 2,
+      "sample_count": 1543,
+      "churn_rate": 0.4997,
+      "churn_rate_pct": 49.97
+    },
+    {
+      "fold": 3,
+      "sample_count": 1543,
+      "churn_rate": 0.4997,
+      "churn_rate_pct": 49.97
+    },
+    {
+      "fold": 4,
+      "sample_count": 1543,
+      "churn_rate": 0.5003,
+      "churn_rate_pct": 50.03
+    },
+    {
+      "fold": 5,
+      "sample_count": 1543,
+      "churn_rate": 0.5003,
+      "churn_rate_pct": 50.03
+    }
+  ],
+  "statistics": {
+    "churn_rate_std": 0.0003,
+    "churn_rate_variance": 0.0,
+    "max_churn_rate": 0.5003,
+    "min_churn_rate": 0.4997,
+    "churn_rate_range": 0.0006
+  },
+  "validation_results": {
+    "min_samples_per_fold": 30,
+    "all_folds_adequate": true,
+    "max_churn_rate_variance": 0.05,
+    "variance_ok": true,
+    "all_valid": true
+  }
+}

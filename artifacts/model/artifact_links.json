@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-28T21:39:45.614249",
+    "base_url": "file://",
+    "include_hashes": true
+  },
+  "categories": {
+    "data": [
+      {
+        "name": "Raw Data",
+        "path": "data/Customer_Churn.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/data/Customer_Churn.csv",
+        "exists": true,
+        "size_bytes": 977501,
+        "last_modified": "2025-12-13T13:37:02.220073",
+        "md5_hash": "0f9de68e012bd3aed5fa7cdc9fc421af"
+      },
+      {
+        "name": "Processed Data",
+        "path": "artifacts/data/processed_churn.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/processed_churn.csv",
+        "exists": true,
+        "size_bytes": 483057,
+        "last_modified": "2026-02-28T21:20:28.440261",
+        "md5_hash": "3197780738a0347612b0edbc627e79f8"
+      },
+      {
+        "name": "Training Features",
+        "path": "artifacts/data/X_train.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/X_train.csv",
+        "exists": true,
+        "size_bytes": 284814,
+        "last_modified": "2026-02-28T21:30:21.572316",
+        "md5_hash": "6fa262c59c00f7832a77c2bee47c4ae9"
+      },
+      {
+        "name": "Test Features",
+        "path": "artifacts/data/X_test.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/X_test.csv",
+        "exists": true,
+        "size_bytes": 71524,
+        "last_modified": "2026-02-28T21:30:21.575458",
+        "md5_hash": "dd03f4d67a04aece9672e827c24d35ee"
+      },
+      {
+        "name": "Training Labels",
+        "path": "artifacts/data/y_train.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/y_train.csv",
+        "exists": true,
+        "size_bytes": 11270,
+        "last_modified": "2026-02-28T21:30:21.576736",
+        "md5_hash": "bd40bc8b2e0711fc5a32eef40c4f62f9"
+      },
+      {
+        "name": "Test Labels",
+        "path": "artifacts/data/y_test.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/y_test.csv",
+        "exists": true,
+        "size_bytes": 2820,
+        "last_modified": "2026-02-28T21:30:21.577209",
+        "md5_hash": "de3c986b3f469cc701c1720f46922b4a"
+      },
+      {
+        "name": "Selected Features",
+        "path": "artifacts/data/selected_features.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/selected_features.json",
+        "exists": true,
+        "size_bytes": 188,
+        "last_modified": "2026-02-28T21:23:11.037106",
+        "md5_hash": "4eae1cf1182f8d2f7822c60c3ef4dbbe"
+      },
+      {
+        "name": "Predictions",
+        "path": "artifacts/data/predictions.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/predictions.csv",
+        "exists": true,
+        "size_bytes": 979272,
+        "last_modified": "2026-02-28T21:36:44.317437",
+        "md5_hash": "4736ea2ecb8d963a4b2fa1bf73999f76"
+      },
+      {
+        "name": "Retention Plan",
+        "path": "artifacts/data/retention_plan.csv",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/retention_plan.csv",
+        "exists": true,
+        "size_bytes": 259575,
+        "last_modified": "2026-02-28T21:36:50.229102",
+        "md5_hash": "a99c27de55eb34e1696ad434af82cb24"
+      }
+    ],
+    "models": [
+      {
+        "name": "Main Model",
+        "path": "artifacts/model/churn_model.pkl",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/churn_model.pkl",
+        "exists": true,
+        "size_bytes": 262092,
+        "last_modified": "2026-02-28T21:30:21.578644",
+        "md5_hash": "9bd2fa10859433ec08b93618b9ac40a1"
+      },
+      {
+        "name": "Scaler",
+        "path": "artifacts/model/scaler.pkl",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/scaler.pkl",
+        "exists": true,
+        "size_bytes": 831,
+        "last_modified": "2026-02-28T21:25:07.396428",
+        "md5_hash": "bc2ac6038984185a106106bd1656a226"
+      },
+      {
+        "name": "PyCaret Best Model",
+        "path": "artifacts/model/pycaret_best_model.pkl",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_best_model.pkl",
+        "exists": true,
+        "size_bytes": 375132,
+        "last_modified": "2026-02-28T21:28:57.134279",
+        "md5_hash": "98e26f358c06a465e7a60d8c3cd0a2bd"
+      },
+      {
+        "name": "PyCaret Blend Model",
+        "path": "artifacts/model/pycaret_blend_model.pkl",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_blend_model.pkl",
+        "exists": false,
+        "size_bytes": 0,
+        "last_modified": null
+      },
+      {
+        "name": "PyCaret Stack Model",
+        "path": "artifacts/model/pycaret_stack_model.pkl",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_stack_model.pkl",
+        "exists": false,
+        "size_bytes": 0,
+        "last_modified": null
+      },
+      {
+        "name": "ONNX Model",
+        "path": "artifacts/model/churn_model.onnx",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/churn_model.onnx",
+        "exists": true,
+        "size_bytes": 109214,
+        "last_modified": "2026-02-28T21:30:35.848580",
+        "md5_hash": "545bd6bb933df1db9ed2476fdeee972e"
+      }
+    ],
+    "reports": [
+      {
+        "name": "Pipeline Summary (JSON)",
+        "path": "artifacts/model/pipeline_summary_report.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pipeline_summary_report.json",
+        "exists": false,
+        "size_bytes": 0,
+        "last_modified": null
+      },
+      {
+        "name": "Pipeline Summary (Markdown)",
+        "path": "artifacts/model/pipeline_summary_report.md",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pipeline_summary_report.md",
+        "exists": false,
+        "size_bytes": 0,
+        "last_modified": null
+      },
+      {
+        "name": "Executive Dashboard",
+        "path": "artifacts/model/executive_dashboard.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/executive_dashboard.json",
+        "exists": true,
+        "size_bytes": 2267,
+        "last_modified": "2026-02-28T21:39:42.141289",
+        "md5_hash": "50327cb64ad4ee6269e35d2164a17c3d"
+      },
+      {
+        "name": "Stakeholder Summary",
+        "path": "artifacts/model/stakeholder_summary.md",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/stakeholder_summary.md",
+        "exists": true,
+        "size_bytes": 1515,
+        "last_modified": "2026-02-28T21:39:44.658413",
+        "md5_hash": "1ecb0b657d2e1eede722609f5ac7ac9f"
+      },
+      {
+        "name": "Explanation Report",
+        "path": "artifacts/model/explanation_report.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/explanation_report.json",
+        "exists": true,
+        "size_bytes": 661,
+        "last_modified": "2026-02-28T21:34:56.974595",
+        "md5_hash": "52f533dce9aa29600d4017f5104af06b"
+      },
+      {
+        "name": "Fairness Report",
+        "path": "artifacts/model/fairness_report.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/fairness_report.json",
+        "exists": true,
+        "size_bytes": 737,
+        "last_modified": "2026-02-28T21:34:54.696364",
+        "md5_hash": "b6f7b3cd597cd7f1945588347c74b029"
+      }
+    ],
+    "logs": [
+      {
+        "name": "Experiment Log",
+        "path": "artifacts/model/experiment_log.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/experiment_log.json",
+        "exists": false,
+        "size_bytes": 0,
+        "last_modified": null
+      },
+      {
+        "name": "Pipeline State",
+        "path": "artifacts/data/pipeline_state.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/pipeline_state.json",
+        "exists": true,
+        "size_bytes": 268,
+        "last_modified": "2026-02-28T21:26:08.580536",
+        "md5_hash": "41f9510b45af2482f54cfed87f51f80d"
+      },
+      {
+        "name": "Alert Message",
+        "path": "artifacts/model/alert_message.txt",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/alert_message.txt",
+        "exists": true,
+        "size_bytes": 510,
+        "last_modified": "2026-02-28T21:39:43.490251",
+        "md5_hash": "4459eaf12007a278237fa7b5e88a3d1a"
+      }
+    ],
+    "configs": [
+      {
+        "name": "Feature Config",
+        "path": "artifacts/data/selected_features.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/selected_features.json",
+        "exists": true,
+        "size_bytes": 188,
+        "last_modified": "2026-02-28T21:23:11.037106",
+        "md5_hash": "4eae1cf1182f8d2f7822c60c3ef4dbbe"
+      },
+      {
+        "name": "Campaign Cost",
+        "path": "artifacts/data/campaign_cost_estimate.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/campaign_cost_estimate.json",
+        "exists": false,
+        "size_bytes": 0,
+        "last_modified": null
+      },
+      {
+        "name": "Budget Optimization",
+        "path": "artifacts/data/budget_optimization_report.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/budget_optimization_report.json",
+        "exists": true,
+        "size_bytes": 612,
+        "last_modified": "2026-02-28T21:37:51.484199",
+        "md5_hash": "8921f19d66e3bb2b1c70d8631ed90ed5"
+      },
+      {
+        "name": "A/B Test Groups",
+        "path": "artifacts/data/ab_test_groups.json",
+        "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/ab_test_groups.json",
+        "exists": true,
+        "size_bytes": 757,
+        "last_modified": "2026-02-28T21:36:50.232287",
+        "md5_hash": "aa2728740a89e23d7f79c4faedca4ecc"
+      }
+    ]
+  },
+  "summary": {
+    "total_artifacts": 28,
+    "existing_artifacts": 22,
+    "missing_artifacts": 6,
+    "total_size_bytes": 3824805,
+    "total_size_mb": 3.65
+  }
+}

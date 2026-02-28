@@ -1,0 +1,153 @@
+{
+  "timestamp": "2026-02-28T21:41:11.496577",
+  "total_links_found": 28,
+  "links_validated": 28,
+  "links_working": 24,
+  "links_broken": 4,
+  "links_skipped": 0,
+  "broken_links": [
+    {
+      "name": "PyCaret Blend Model",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_blend_model.pkl",
+      "error": "File not found: /Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_blend_model.pkl"
+    },
+    {
+      "name": "PyCaret Stack Model",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_stack_model.pkl",
+      "error": "File not found: /Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_stack_model.pkl"
+    },
+    {
+      "name": "Experiment Log",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/experiment_log.json",
+      "error": "File not found: /Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/experiment_log.json"
+    },
+    {
+      "name": "Campaign Cost",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/campaign_cost_estimate.json",
+      "error": "File not found: /Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/campaign_cost_estimate.json"
+    }
+  ],
+  "working_links": [
+    {
+      "name": "Raw Data",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/data/Customer_Churn.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Processed Data",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/processed_churn.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Training Features",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/X_train.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Test Features",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/X_test.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Training Labels",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/y_train.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Test Labels",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/y_test.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Selected Features",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/selected_features.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Predictions",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/predictions.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Retention Plan",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/retention_plan.csv",
+      "type": "local_file"
+    },
+    {
+      "name": "Main Model",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/churn_model.pkl",
+      "type": "local_file"
+    },
+    {
+      "name": "Scaler",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/scaler.pkl",
+      "type": "local_file"
+    },
+    {
+      "name": "PyCaret Best Model",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pycaret_best_model.pkl",
+      "type": "local_file"
+    },
+    {
+      "name": "ONNX Model",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/churn_model.onnx",
+      "type": "local_file"
+    },
+    {
+      "name": "Pipeline Summary (JSON)",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pipeline_summary_report.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Pipeline Summary (Markdown)",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/pipeline_summary_report.md",
+      "type": "local_file"
+    },
+    {
+      "name": "Executive Dashboard",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/executive_dashboard.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Stakeholder Summary",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/stakeholder_summary.md",
+      "type": "local_file"
+    },
+    {
+      "name": "Explanation Report",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/explanation_report.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Fairness Report",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/fairness_report.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Pipeline State",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/pipeline_state.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Alert Message",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/model/alert_message.txt",
+      "type": "local_file"
+    },
+    {
+      "name": "Feature Config",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/selected_features.json",
+      "type": "local_file"
+    },
+    {
+      "name": "Budget Optimization",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/budget_optimization_report.json",
+      "type": "local_file"
+    },
+    {
+      "name": "A/B Test Groups",
+      "url": "file:///Users/mananmodi/Desktop/Study Material/8th Sem/Churn_Crewai/artifacts/data/ab_test_groups.json",
+      "type": "local_file"
+    }
+  ],
+  "all_valid": false
+}

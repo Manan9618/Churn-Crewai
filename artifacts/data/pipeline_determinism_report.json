@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-28T21:26:31.301490",
+  "n_iterations_requested": 2,
+  "n_iterations_completed": 1,
+  "tolerance": 0.0001,
+  "original_file_hashes": {
+    "X_train": "4d6636d401d7cb86e6e1cbc63811d9de",
+    "X_test": "74a80bdbd90a551b2041d98f1469b367",
+    "y_train": "2a7c855732467cec58d7beb6b301f53a",
+    "y_test": "22f07573c678f12237d543345d7f7353"
+  },
+  "determinism_checks": [
+    {
+      "check": "Random State Documented",
+      "status": "WARNING",
+      "details": "random_state not documented in pipeline state"
+    },
+    {
+      "check": "Output File Hashes",
+      "status": "RECORDED",
+      "details": "X_train: 4d6636d4..., X_test: 74a80bdb..."
+    },
+    {
+      "check": "Sample Counts Stable",
+      "status": "PASSED",
+      "details": "Train: 7716, Test: 1409"
+    }
+  ],
+  "all_checks_passed": false,
+  "recommendation": "For full determinism validation, run pipeline twice with same seeds and compare hashes"
+}

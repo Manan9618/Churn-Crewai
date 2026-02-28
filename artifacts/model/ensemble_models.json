@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-28T21:30:34.338839",
+  "voting_method": "soft",
+  "models_included": "random_forest,gradient_boosting,logistic_regression",
+  "individual_model_performance": {
+    "random_forest": {
+      "auc": 0.8109,
+      "f1": 0.5527
+    },
+    "gradient_boosting": {
+      "auc": 0.8393,
+      "f1": 0.5875
+    },
+    "logistic_regression": {
+      "auc": 0.834,
+      "f1": 0.5631
+    }
+  },
+  "best_individual_model": "gradient_boosting",
+  "best_individual_auc": 0.8393,
+  "ensemble_performance": {
+    "auc": 0.8382,
+    "f1": 0.5601
+  },
+  "improvement_over_best": {
+    "auc_delta": -0.0011,
+    "f1_delta": -0.0274
+  },
+  "ensemble_model_path": "artifacts/model/churn_model_ensemble.pkl"
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-02-28T21:37:51.482969",
+  "total_budget": 10000,
+  "min_customers_per_segment": 10,
+  "original_customer_count": 1475,
+  "optimized_customer_count": 500,
+  "budget_used": 25000.0,
+  "budget_remaining": -15000.0,
+  "budget_utilization_percent": 250.0,
+  "expected_retained_customers": 61.2,
+  "expected_revenue": 87500.0,
+  "roi_percent": 250.0,
+  "segment_allocation": {
+    "High Risk": {
+      "customers": 500,
+      "total_cost": 25000.0,
+      "expected_revenue": 87500.0,
+      "avg_retention_rate": 0.35
+    }
+  },
+  "optimization_method": "Greedy ROI-based with segment minimums"
+}

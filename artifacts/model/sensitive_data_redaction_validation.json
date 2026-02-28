@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-28T21:41:15.212954",
+  "files_scanned": [
+    {
+      "path": "artifacts/model/pipeline_summary_report.json",
+      "status": "SCANNED",
+      "pii_found": [],
+      "file_size_bytes": 1184
+    },
+    {
+      "path": "artifacts/model/pipeline_summary_report.md",
+      "status": "SCANNED",
+      "pii_found": [],
+      "file_size_bytes": 873
+    },
+    {
+      "path": "artifacts/model/stakeholder_summary.md",
+      "status": "SCANNED",
+      "pii_found": [],
+      "file_size_bytes": 1515
+    }
+  ],
+  "pii_detected": [],
+  "all_clean": true,
+  "patterns_checked": [
+    "email",
+    "phone",
+    "ssn",
+    "credit_card"
+  ]
+}

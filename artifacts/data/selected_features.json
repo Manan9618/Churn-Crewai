@@ -1,1 +1,1 @@
-["OnlineSecurity", "tenure_group", "TotalCharges", "PaperlessBilling", "MonthlyCharges", "gender", "num_services_subscribed", "TechSupport", "tenure", "PaymentMethod", "InternetService", "OnlineBackup", "MultipleLines", "Contract", "monthly_to_total_charge_ratio"]
+["gender", "Contract", "tenure_group", "TechSupport", "num_services_subscribed", "TotalCharges", "MonthlyCharges", "OnlineSecurity", "OnlineBackup", "monthly_to_total_charge_ratio", "PaymentMethod", "PaperlessBilling", "MultipleLines", "tenure", "InternetService"]

@@ -1,0 +1,135 @@
+{
+  "n_folds": 5,
+  "stability_threshold": 0.3,
+  "n_features_analyzed": 12,
+  "n_unstable_features": 0,
+  "unstable_features": [],
+  "mean_importance": {
+    "TotalCharges": 0.23089891222744363,
+    "MonthlyCharges": 0.22279634588970612,
+    "tenure": 0.1799397453276919,
+    "Contract": 0.0756895495045706,
+    "PaymentMethod": 0.05544847999470315,
+    "OnlineSecurity": 0.05049580269064284,
+    "TechSupport": 0.04264330835887583,
+    "InternetService": 0.030513634162982573,
+    "gender": 0.02865130660381579,
+    "OnlineBackup": 0.030168906731480323,
+    "PaperlessBilling": 0.026701348946644332,
+    "MultipleLines": 0.02605265956144291
+  },
+  "std_importance": {
+    "TotalCharges": 0.0014768359088155295,
+    "MonthlyCharges": 0.0021599550416759594,
+    "tenure": 0.001012732074630367,
+    "Contract": 0.0023758218759968677,
+    "PaymentMethod": 0.00040922128209034076,
+    "OnlineSecurity": 0.001664450052786738,
+    "TechSupport": 0.002492536576649772,
+    "InternetService": 0.0016602374578041628,
+    "gender": 0.0009506620328415886,
+    "OnlineBackup": 0.0016148399390115292,
+    "PaperlessBilling": 0.0004951347870542161,
+    "MultipleLines": 0.0003983241206102086
+  },
+  "cv_importance": {
+    "TotalCharges": 0.00636844690054892,
+    "MonthlyCharges": 0.009651431229089206,
+    "tenure": 0.005597068089137922,
+    "Contract": 0.03097973441420818,
+    "PaymentMethod": 0.007249465036591598,
+    "OnlineSecurity": 0.03232205278526866,
+    "TechSupport": 0.057111540586103605,
+    "InternetService": 0.05268314816430653,
+    "gender": 0.03206138756527003,
+    "OnlineBackup": 0.051809322441860144,
+    "PaperlessBilling": 0.01787403162235518,
+    "MultipleLines": 0.01472402813873148
+  },
+  "feature_stability": [
+    {
+      "feature": "TotalCharges",
+      "mean_importance": 0.230899,
+      "std_importance": 0.001477,
+      "cv_importance": 0.0064,
+      "status": "STABLE"
+    },
+    {
+      "feature": "MonthlyCharges",
+      "mean_importance": 0.222796,
+      "std_importance": 0.00216,
+      "cv_importance": 0.0097,
+      "status": "STABLE"
+    },
+    {
+      "feature": "tenure",
+      "mean_importance": 0.17994,
+      "std_importance": 0.001013,
+      "cv_importance": 0.0056,
+      "status": "STABLE"
+    },
+    {
+      "feature": "Contract",
+      "mean_importance": 0.07569,
+      "std_importance": 0.002376,
+      "cv_importance": 0.031,
+      "status": "STABLE"
+    },
+    {
+      "feature": "PaymentMethod",
+      "mean_importance": 0.055448,
+      "std_importance": 0.000409,
+      "cv_importance": 0.0072,
+      "status": "STABLE"
+    },
+    {
+      "feature": "OnlineSecurity",
+      "mean_importance": 0.050496,
+      "std_importance": 0.001664,
+      "cv_importance": 0.0323,
+      "status": "STABLE"
+    },
+    {
+      "feature": "TechSupport",
+      "mean_importance": 0.042643,
+      "std_importance": 0.002493,
+      "cv_importance": 0.0571,
+      "status": "STABLE"
+    },
+    {
+      "feature": "InternetService",
+      "mean_importance": 0.030514,
+      "std_importance": 0.00166,
+      "cv_importance": 0.0527,
+      "status": "STABLE"
+    },
+    {
+      "feature": "gender",
+      "mean_importance": 0.028651,
+      "std_importance": 0.000951,
+      "cv_importance": 0.0321,
+      "status": "STABLE"
+    },
+    {
+      "feature": "OnlineBackup",
+      "mean_importance": 0.030169,
+      "std_importance": 0.001615,
+      "cv_importance": 0.0518,
+      "status": "STABLE"
+    },
+    {
+      "feature": "PaperlessBilling",
+      "mean_importance": 0.026701,
+      "std_importance": 0.000495,
+      "cv_importance": 0.0179,
+      "status": "STABLE"
+    },
+    {
+      "feature": "MultipleLines",
+      "mean_importance": 0.026053,
+      "std_importance": 0.000398,
+      "cv_importance": 0.0147,
+      "status": "STABLE"
+    }
+  ]
+}

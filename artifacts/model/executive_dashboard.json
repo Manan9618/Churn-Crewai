@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-28T21:39:42.097172",
+    "dashboard_version": "1.0",
+    "refresh_interval_seconds": 300
+  },
+  "kpi_cards": [
+    {
+      "id": "predicted_churn_rate",
+      "title": "Predicted Churn Rate",
+      "value": 20.94,
+      "suffix": "%",
+      "target": 26.0,
+      "status": "\u2705 NORMAL",
+      "trend": "stable"
+    },
+    {
+      "id": "total_customers",
+      "title": "Total Customers Scored",
+      "value": 7043,
+      "suffix": "",
+      "target": null,
+      "status": "\u2705 COMPLETE",
+      "trend": "stable"
+    },
+    {
+      "id": "at_risk_customers",
+      "title": "At-Risk Customers",
+      "value": 1475,
+      "suffix": "",
+      "target": null,
+      "status": "\u2139\ufe0f INFO",
+      "trend": "stable"
+    },
+    {
+      "id": "high_risk_customers",
+      "title": "High Risk Customers",
+      "value": 661,
+      "suffix": "",
+      "target": null,
+      "status": "\u26a0\ufe0f ACTION REQUIRED",
+      "trend": "stable"
+    }
+  ],
+  "charts": [
+    {
+      "id": "churn_distribution",
+      "title": "Predicted Churn Distribution",
+      "type": "pie",
+      "data": {
+        "labels": [
+          "Not Churning",
+          "Churning"
+        ],
+        "values": [
+          5568,
+          1475
+        ]
+      }
+    },
+    {
+      "id": "probability_distribution",
+      "title": "Churn Probability Distribution",
+      "type": "bar",
+      "data": {
+        "labels": [
+          "(0.00293, 0.101]",
+          "(0.101, 0.197]",
+          "(0.197, 0.294]",
+          "(0.294, 0.391]",
+          "(0.391, 0.487]",
+          "(0.487, 0.584]",
+          "(0.584, 0.681]",
+          "(0.681, 0.777]",
+          "(0.777, 0.874]",
+          "(0.874, 0.971]"
+        ],
+        "values": [
+          2881,
+          857,
+          655,
+          622,
+          491,
+          443,
+          378,
+          317,
+          238,
+          161
+        ]
+      }
+    },
+    {
+      "id": "risk_segments",
+      "title": "Customer Risk Segments",
+      "type": "bar",
+      "data": {
+        "labels": [
+          "Medium Risk",
+          "High Risk"
+        ],
+        "values": [
+          814,
+          661
+        ]
+      }
+    }
+  ],
+  "alerts": [],
+  "status": "\u2705 ALL SYSTEMS OPERATIONAL"
+}

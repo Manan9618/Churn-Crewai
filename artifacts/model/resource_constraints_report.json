@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-02-28T21:43:56.395146",
+  "constraints": {
+    "max_training_time_minutes": 60,
+    "max_memory_gb": 16,
+    "max_features": 50,
+    "min_auc_for_deployment": 0.75
+  },
+  "actual_usage": {
+    "n_features": 15,
+    "model_size_mb": 0.25,
+    "estimated_memory_gb": 0.02,
+    "latest_auc": 0.8393,
+    "scaler_exists": true,
+    "estimated_training_time_minutes": 0.2
+  },
+  "violations": [],
+  "deployment_ready": true
+}

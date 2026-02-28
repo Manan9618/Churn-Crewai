@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-28T21:42:29.788052",
+  "test_set_size": 1409,
+  "actual_churn_rate": 0.2654,
+  "predicted_churn_rate": 0.2129,
+  "confusion_matrix": {
+    "true_negatives": 933,
+    "false_positives": 102,
+    "false_negatives": 176,
+    "true_positives": 198
+  },
+  "cost_breakdown": {
+    "false_negative_cost": 

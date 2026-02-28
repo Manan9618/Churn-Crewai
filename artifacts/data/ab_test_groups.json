@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-02-28T21:36:50.231960",
+  "random_state": 42,
+  "treatment_percentage_target": 0.8,
+  "total_customers": 1475,
+  "control_group": {
+    "count": 296,
+    "percentage": 20.07,
+    "segment_distribution": {
+      "Medium Risk": 163,
+      "High Risk": 133
+    }
+  },
+  "treatment_group": {
+    "count": 1179,
+    "percentage": 79.93,
+    "segment_distribution": {
+      "Medium Risk": 651,
+      "High Risk": 528
+    }
+  },
+  "stratified_by": "Risk_Segment",
+  "measurement_plan": {
+    "primary_metric": "Retention Rate (1 - actual churn after campaign)",
+    "secondary_metrics": [
+      "Offer redemption rate",
+      "Customer satisfaction score"
+    ],
+    "test_duration_days": 30,
+    "statistical_significance_level": 0.05
+  }
+}

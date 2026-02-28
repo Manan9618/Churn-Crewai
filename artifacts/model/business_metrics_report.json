@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-02-28T21:32:12.727421",
+  "test_set_size": 1409,
+  "confusion_matrix": {
+    "true_negatives": 933,
+    "false_positives": 102,
+    "false_negatives": 176,
+    "true_positives": 198
+  },
+  "cost_breakdown": {
+    "false_negative_cost": 

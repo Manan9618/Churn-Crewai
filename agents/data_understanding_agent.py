@@ -5,6 +5,7 @@ from tools.data.data_tools import (
     missing_values_tool,
     class_distribution_tool,
     descriptive_stats_tool,
+    detect_pii_fields_tool,  # NEW
 )
 
 
@@ -13,14 +14,15 @@ def create_data_understanding_agent(llm) -> Agent:
         role="Data Understanding Specialist",
         goal=(
             "Thoroughly explore and understand the Customer Churn dataset by analyzing "
-            "its structure, feature types, missing values, class distribution, and "
-            "statistical properties to provide a solid foundation for downstream tasks."
+            "its structure, feature types, missing values, class distribution, statistical "
+            "properties, and potential PII fields to ensure compliance and provide a solid "
+            "foundation for downstream tasks."
         ),
         backstory=(
             "You are an expert data analyst with deep experience in telecom customer "
             "behavior datasets. You excel at uncovering data quality issues, spotting "
-            "imbalances, and summarizing key statistics that guide preprocessing and "
-            "modeling decisions."
+            "imbalances, identifying PII compliance risks, and summarizing key statistics "
+            "that guide preprocessing and modeling decisions."
         ),
         tools=[
             load_dataset_tool,
@@ -28,6 +30,7 @@ def create_data_understanding_agent(llm) -> Agent:
             missing_values_tool,
             class_distribution_tool,
             descriptive_stats_tool,
+            detect_pii_fields_tool,  # NEW
         ],
         llm=llm,
         verbose=True,

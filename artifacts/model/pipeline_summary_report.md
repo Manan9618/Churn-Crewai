@@ -1,6 +1,6 @@
 # Customer Churn Prediction — Pipeline Summary Report
 
-**Generated:** 2026-02-27T15:42:04.483789
+**Generated:** 2026-02-28T21:40:46.542295
 
 
 ## Data
@@ -11,21 +11,21 @@
 
 ## Feature Selection
 
-- **selected_features**: ['TotalCharges', 'MonthlyCharges', 'tenure', 'Contract', 'PaymentMethod', 'OnlineSecurity', 'TechSupport', 'gender', 'InternetService', 'OnlineBackup', 'PaperlessBilling', 'MultipleLines']
+- **selected_features**: ['TotalCharges', 'MonthlyCharges', 'tenure', 'Contract', 'PaymentMethod', 'OnlineSecurity', 'TechSupport', 'InternetService', 'gender', 'OnlineBackup', 'PaperlessBilling', 'MultipleLines']
 - **count**: 12
 
 ## Model Performance
 
 - **model_type**: GradientBoostingClassifier
-- **auc**: 0.8394
-- **f1**: 0.5896
-- **recall**: 0.5321
+- **auc**: 0.8393
+- **f1**: 0.5875
+- **recall**: 0.5294
 
 ## Predictions
 
 - **total**: 7043
-- **churners**: 1476
-- **churn_rate_pct**: 20.96
+- **churners**: 1475
+- **churn_rate_pct**: 20.94
 
 ## Explanability
 
@@ -33,10 +33,5 @@
 
 ## Retention Strategy
 
-- **total_at_risk**: 1476
-- **segments**: {'Medium Risk': 815, 'High Risk': 661}
-
-## Experiment Log
-
-- **total_runs**: 3
-- **latest_run**: {'run_id': 3, 'timestamp': '2026-02-27T14:56:32.313165', 'model_type': 'gradient_boosting', 'auc': 0.8394, 'f1': 0.5896, 'recall': 0.5321}
+- **total_at_risk**: 1475
+- **segments**: {'Medium Risk': 814, 'High Risk': 661}

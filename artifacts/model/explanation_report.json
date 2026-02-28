@@ -1,16 +1,16 @@
 {
   "model_path": "artifacts/model/churn_model.pkl",
   "global_feature_importance_shap": {
-    "Contract": 0.7796127074541823,
-    "tenure": 0.3986869696702159,
-    "MonthlyCharges": 0.33265262429742765,
+    "Contract": 0.77961230601306,
+    "tenure": 0.398885416803198,
+    "MonthlyCharges": 0.3386392855330267,
     "OnlineSecurity": 0.2797660460723671,
-    "TotalCharges": 0.23580957702524696,
-    "TechSupport": 0.23250601765650192,
-    "OnlineBackup": 0.17677281151532287,
-    "MultipleLines": 0.1545201608548493,
-    "PaymentMethod": 0.1433964179759817,
-    "PaperlessBilling": 0.14204731637011417
+    "TotalCharges": 0.23454563826654423,
+    "TechSupport": 0.2324122928898187,
+    "OnlineBackup": 0.17671256605988223,
+    "MultipleLines": 0.1539355662954186,
+    "PaymentMethod": 0.14250649016876615,
+    "PaperlessBilling": 0.14202396114579297
   },
   "top_churn_drivers": [
     "Contract",
@@ -19,6 +19,6 @@
     "OnlineSecurity",
     "TotalCharges"
   ],
-  "test_auc": 0.8394,
-  "test_f1": 0.5896
+  "test_auc": 0.8393,
+  "test_f1": 0.5875
 }

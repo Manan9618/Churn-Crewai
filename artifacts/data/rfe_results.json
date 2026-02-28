@@ -1,0 +1,50 @@
+{
+  "n_features_original": 19,
+  "n_features_selected": 10,
+  "selected_features": [
+    "gender",
+    "tenure",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "TechSupport",
+    "Contract",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "eliminated_features": [
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "DeviceProtection",
+    "StreamingTV",
+    "StreamingMovies",
+    "PaperlessBilling"
+  ],
+  "feature_ranking": {
+    "gender": 1,
+    "PaymentMethod": 1,
+    "Contract": 1,
+    "TechSupport": 1,
+    "MonthlyCharges": 1,
+    "OnlineSecurity": 1,
+    "InternetService": 1,
+    "OnlineBackup": 1,
+    "tenure": 1,
+    "TotalCharges": 1,
+    "PaperlessBilling": 2,
+    "MultipleLines": 3,
+    "Partner": 4,
+    "DeviceProtection": 5,
+    "Dependents": 6,
+    "StreamingMovies": 7,
+    "StreamingTV": 8,
+    "PhoneService": 9,
+    "SeniorCitizen": 10
+  },
+  "cv_auc_mean": 0.8126,
+  "cv_auc_std": 0.0164
+}

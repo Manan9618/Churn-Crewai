@@ -1,0 +1,29 @@
+{
+  "title": "Customer Churn Prediction \u2014 Business Summary",
+  "generated_at": "February 28, 2026",
+  "executive_overview": "Our AI-powered churn prediction model has analyzed 7,043 customers and identified 1,475 (20.9%) at risk of churning in the next period. The model demonstrates moderate predictive accuracy (AUC: 0.00), enabling us to proactively retain valuable customers through targeted interventions.",
+  "key_findings": [
+    "661 customers are classified as High Risk (immediate action required)",
+    "814 customers are Medium/Low Risk (monitoring recommended)",
+    "Campaign cost pending calculation",
+    "Expected ROI: 250.0%"
+  ],
+  "financial_impact": {
+    "campaign_investment": "Pending",
+    "expected_revenue_saved": "Pending",
+    "projected_roi": "Pending",
+    "customers_expected_retained": "Pending"
+  },
+  "recommendations": [
+    "Prioritize outreach to High Risk customers within the next 7 days",
+    "Allocate budget to personalized retention offers based on customer segment",
+    "Monitor campaign effectiveness through A/B testing (Control vs Treatment groups)",
+    "Review model performance monthly and retrain if accuracy drops below 75%"
+  ],
+  "next_steps": [
+    "CRM team: Begin outreach to High Risk segment this week",
+    "Marketing: Prepare personalized offer communications",
+    "Analytics: Track retention rates over next 30 days",
+    "Leadership: Review campaign ROI at month-end"
+  ]
+}

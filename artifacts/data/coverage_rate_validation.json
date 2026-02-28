@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-02-28T21:39:26.290141",
+  "total_high_risk_customers": 661,
+  "high_risk_in_plan": 661,
+  "coverage_rate": 1.0,
+  "coverage_rate_percent": 100.0,
+  "minimum_required": 80,
+  "meets_minimum": false,
+  "optimized_plan_coverage": 0.7564
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-28T21:41:13.780113",
+  "max_age_hours": 24,
+  "summary_age_hours": 0.01,
+  "is_fresh": true,
+  "summary_generated_at": "2026-02-28T21:40:46.542295",
+  "status": "\u2705 FRESH",
+  "artifact_ages": {
+    "Predictions": {
+      "age_hours": 0.07,
+      "is_fresh": true,
+      "last_modified": "2026-02-28T21:36:44.317437"
+    },
+    "Retention Plan": {
+      "age_hours": 0.07,
+      "is_fresh": true,
+      "last_modified": "2026-02-28T21:36:50.229102"
+    },
+    "Model": {
+      "age_hours": 0.18,
+      "is_fresh": true,
+      "last_modified": "2026-02-28T21:30:21.578644"
+    }
+  },
+  "overall_status": "\u2705 ALL DATA FRESH"
+}

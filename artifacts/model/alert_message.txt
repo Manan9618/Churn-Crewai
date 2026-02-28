@@ -1,0 +1,17 @@
+:red_circle: *Churn Prediction Pipeline Alert*
+*Severity:* CRITICAL
+*Timestamp:* 2026-02-28 21:39:43
+
+*Issues Detected:*
+• ❌ Model AUC (0.0000) below threshold (0.75)
+• ❌ Model Recall (0.0000) below threshold (0.6)
+• ⚠️ High Risk coverage (100.0%) below minimum (80%)
+
+*Quick Metrics:*
+• Model AUC: `0.0000`
+• Model F1: `0.0000`
+• Model Recall: `0.0000`
+• Predicted Churners: `1475`
+• At-Risk Customers: `1475`
+
+:mag: *Action Required:* Review pipeline outputs and address issues above.

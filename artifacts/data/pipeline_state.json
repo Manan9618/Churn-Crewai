@@ -1,5 +1,5 @@
 {
-  "current_stage": "processing",
+  "current_stage": "completed",
   "files_generated": {
     "processed_data": true,
     "selected_features": true,
@@ -9,6 +9,6 @@
     "y_test": true
   },
   "feature_count": 12,
-  "train_size": 8278,
+  "train_size": 7716,
   "test_size": 1409
 }

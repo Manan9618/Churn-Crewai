@@ -1,0 +1,71 @@
+{
+  "vif_threshold": 5.0,
+  "n_features_analyzed": 12,
+  "n_high_vif_features": 2,
+  "high_vif_features": [
+    "TotalCharges",
+    "tenure"
+  ],
+  "all_vif_scores": [
+    {
+      "feature": "TotalCharges",
+      "vif": 9.962,
+      "status": "HIGH"
+    },
+    {
+      "feature": "MonthlyCharges",
+      "vif": 3.9239,
+      "status": "OK"
+    },
+    {
+      "feature": "tenure",
+      "vif": 7.159,
+      "status": "HIGH"
+    },
+    {
+      "feature": "Contract",
+      "vif": 3.6832,
+      "status": "OK"
+    },
+    {
+      "feature": "PaymentMethod",
+      "vif": 3.0698,
+      "status": "OK"
+    },
+    {
+      "feature": "OnlineSecurity",
+      "vif": 2.1505,
+      "status": "OK"
+    },
+    {
+      "feature": "TechSupport",
+      "vif": 2.2925,
+      "status": "OK"
+    },
+    {
+      "feature": "InternetService",
+      "vif": 2.4757,
+      "status": "OK"
+    },
+    {
+      "feature": "gender",
+      "vif": 1.8584,
+      "status": "OK"
+    },
+    {
+      "feature": "OnlineBackup",
+      "vif": 2.3343,
+      "status": "OK"
+    },
+    {
+      "feature": "PaperlessBilling",
+      "vif": 2.3571,
+      "status": "OK"
+    },
+    {
+      "feature": "MultipleLines",
+      "vif": 2.349,
+      "status": "OK"
+    }
+  ]
+}

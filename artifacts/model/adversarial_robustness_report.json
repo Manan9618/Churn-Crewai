@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-28T21:32:14.069199",
+  "n_samples_tested": 100,
+  "baseline_accuracy": 0.76,
+  "perturbation_magnitude_range": [
+    0.020000000000000004,
+    0.1
+  ],
+  "max_allowed_accuracy_drop": 0.05,
+  "robustness_results": [
+    {
+      "perturbation_magnitude": 0.02,
+      "baseline_accuracy": 0.76,
+      "perturbed_accuracy": 0.77,
+      "accuracy_drop": -0.01,
+      "robust": true
+    },
+    {
+      "perturbation_magnitude": 0.04,
+      "baseline_accuracy": 0.76,
+      "perturbed_accuracy": 0.8,
+      "accuracy_drop": -0.04,
+      "robust": true
+    },
+    {
+      "perturbation_magnitude": 0.06,
+      "baseline_accuracy": 0.76,
+      "perturbed_accuracy": 0.73,
+      "accuracy_drop": 0.03,
+      "robust": true
+    },
+    {
+      "perturbation_magnitude": 0.08,
+      "baseline_accuracy": 0.76,
+      "perturbed_accuracy": 0.74,
+      "accuracy_drop": 0.02,
+      "robust": true
+    },
+    {
+      "perturbation_magnitude": 0.1,
+      "baseline_accuracy": 0.76,
+      "perturbed_accuracy": 0.73,
+      "accuracy_drop": 0.03,
+      "robust": true
+    }
+  ],
+  "average_accuracy_retention": 0.994,
+  "all_tests_robust": true
+}

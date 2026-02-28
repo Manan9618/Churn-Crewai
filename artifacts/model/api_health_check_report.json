@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-28T21:30:13.719797",
+  "api_url": "artifacts/model/pycaret_api_deployment.json",
+  "timeout_seconds": 10,
+  "all_healthy": false,
+  "endpoint_checks": [
+    {
+      "endpoint": "/health",
+      "status_code": "N/A",
+      "status": "ERROR",
+      "error": "Invalid URL 'artifacts/model/pycaret_api_deployment.json/health': No scheme supplied. Perhaps you meant https://artifacts/model/pycaret_api_deployment.json/health?"
+    }
+  ]
+}

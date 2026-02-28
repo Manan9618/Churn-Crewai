@@ -1,0 +1,36 @@
+{
+  "protected_attributes_analyzed": [
+    "Gender"
+  ],
+  "bias_detected": [],
+  "group_metrics": {
+    "Gender": {
+      "group_1": {
+        "size": 722,
+        "percentage": 51.24,
+        "churn_rate": 21.19,
+        "avg_probability": 0.2654,
+        "accuracy": 0.8006,
+        "recall": 0.5249,
+        "top_features_shap": [
+          "Contract",
+          "tenure",
+          "MonthlyCharges"
+        ]
+      },
+      "group_0": {
+        "size": 687,
+        "percentage": 48.76,
+        "churn_rate": 21.4,
+        "avg_probability": 0.265,
+        "accuracy": 0.8049,
+        "recall": 0.5337,
+        "top_features_shap": [
+          "Contract",
+          "tenure",
+          "MonthlyCharges"
+        ]
+      }
+    }
+  }
+}

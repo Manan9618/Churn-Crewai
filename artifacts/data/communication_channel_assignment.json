@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-02-28T21:36:49.184485",
+  "total_customers": 1475,
+  "channel_distribution": {
+    "Call": 661,
+    "Email": 496,
+    "SMS": 318
+  },
+  "total_channel_cost": 3871.0,
+  "avg_channel_cost": 2.62,
+  "avg_effectiveness_score": 0.306,
+  "channel_info": {
+    "Email": {
+      "cost": 0.5,
+      "effectiveness": 0.15,
+      "preferred_by": [
+        "PaperlessBilling"
+      ]
+    },
+    "SMS": {
+      "cost": 1.0,
+      "effectiveness": 0.25,
+      "preferred_by": [
+        "PhoneService"
+      ]
+    },
+    "Call": {
+      "cost": 5.0,
+      "effectiveness": 0.45,
+      "preferred_by": [
+        "SeniorCitizen"
+      ]
+    }
+  }
+}
